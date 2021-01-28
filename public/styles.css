@@ -1,0 +1,40 @@
+.title{
+  margin-bottom: 40px;
+}
+
+.btn{
+  margin-right: 20px
+}
+
+.containera{
+  margin:auto;
+  width:50%;
+}
+
+.form-group{
+  max-width: 350px
+}
+
+.form{
+  margin:auto;
+  width:50%;
+}
+
+.viewBMI-outer{
+  display: inline;
+  min-width: 100px;
+  border:solid 1px rgb(0, 0, 0);
+  min-width: 100px;
+}
+
+.viewBMI-inner .viewBMI-outer{
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+.viewBMI-inner{
+  display: inline;
+  background-color: black;
+  color:white;
+}
