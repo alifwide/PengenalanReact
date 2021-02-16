@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Beranda from "./components/Beranda.js";
-import Gallery from "./components/Gallery.js";
-import Daftarharibesar from "./components/Daftarharibesar.js";
+import Beranda from "./components/BMI.js";
+import Gallery from "./components/Conversion.js";
+import Daftarharibesar from "./components/Cicilan.js";
 import "./styles/styles.css";
 import {
 	BrowserRouter as Router,
@@ -16,9 +16,9 @@ const element = (
 		<nav className="navbar navbar-default">
 			<div className="container-fluid">
 				<ul className="nav navbar-nav">
-					<li><Link to="/">Beranda</Link></li>
-					<li><Link to="/gallery">Gallery</Link></li>
-					<li><Link to="/daftar">Daftar hari lingkungan</Link></li>
+					<li><Link to="/">BMI</Link></li>
+					<li><Link to="/gallery">Conversion</Link></li>
+					<li><Link to="/daftar">Cicilan</Link></li>
 				</ul>
 			</div>
 		</nav>                                                               
